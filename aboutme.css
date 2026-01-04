@@ -1,0 +1,124 @@
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url(https://cdn.hey-japan.com/upload/be547e66-82b3-4ccc-a25f-63f22e798f02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.outer-box{
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  font-size: 20px;
+}
+
+.main-box{
+  display: flex;
+  flex-direction: column;
+  border: 8px solid rgba(255,255,255,0.8);
+  align-items: center;
+  width: 1200px;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 75px;
+  color: white;
+}
+
+.header{
+  width: 100%;
+  margin-bottom: 20px;
+  border-bottom: 5px dotted rgba(255, 255, 255, 0.8);
+  text-align: center;
+
+}
+
+h1{
+  text-align: center;
+  font-family: 'Cambria';
+}
+.name  > p{
+  text-align: center;
+}
+.myself{
+  width: 150%;
+  flex: 1;
+}
+.my-bio{
+  flex: 2;
+}
+.my-picture{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.name{
+  border: 2px solid white;
+  border-radius: 10px;
+}
+img{
+  border-radius: 50%;
+  border: 3px white solid;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  padding: 0;
+}
+.line{
+  height: 100%;
+  width: 1px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 20px;
+  justify-content: center;
+  text-align: start;
+  align-items: center;
+  margin-top: 10px;
+}
+.socials{
+  flex: 4;
+}
+.social-text{
+  flex: 2;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: rgba(255, 255, 255, 0.9);
+}
+
+a:active{
+  color: red;
+}
+
+li{
+  font-family: monospace;
+  font-size: 17px;
+}
+
+.bottom-most{
+  position: absolute;
+  text-align: center;
+  width: 99vw;
+  flex-direction: column;
+  height: max-content;
+  background-color: black;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+.image-link{
+
+}
