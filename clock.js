@@ -5,14 +5,16 @@ import timezone from 'https://cdn.jsdelivr.net/npm/dayjs@latest/plugin/timezone/
 dayjs.extend(utc)
 dayjs.extend(timezone)
 
-const tokyoTime = dayjs().tz('Asia/Tokyo');
-console.log(tokyoTime.format('YYYY-MM-DD HH:mm:ss'));  // Japan time
-const vietnamTime = dayjs().tz('Asia/Bangkok');
-console.log(vietnamTime.format('YYYY-MM-DD HH:mm:ss')); // Vietnam time
-
 const timeInTokyo = document.querySelector('.js-live-time');
-timeInTokyo.innerHTML = tokyoTime.format("HH:mm")
 const liveTime = document.querySelector('.this-time');
-liveTime.innerHTML = vietnamTime.format("HH:mm")
-console.log(today.format("ss, m, HH, D, MMMM, YYYY"));
 
+updateTime()
+
+const myInterval = setInterval(updateTime, 1000);
+
+function updateTime() {
+    const tokyoTime = dayjs().tz('Asia/Tokyo');
+    const vietnamTime = dayjs().tz('Asia/Bangkok');
+    timeInTokyo.innerHTML = tokyoTime.format("HH:mm");
+    liveTime.innerHTML = vietnamTime.format("HH:mm");
+}
