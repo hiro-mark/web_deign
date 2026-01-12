@@ -62,7 +62,7 @@ h1{
   border-radius: 10px;
 }
 img{
-  border-radius: 50%;
+  border-radius: 50px;
   border: 3px white solid;
 }
 
@@ -71,8 +71,7 @@ img{
   flex-direction: row;
   align-items: center;
   width: 90%;
-  padding: 0;
-  border-bottom: 5px dotted rgba(255, 255, 255, 0.8);
+  padding: 0 0 10px 0;
 }
 .line{
   height: 100%;
@@ -89,6 +88,7 @@ img{
   text-align: start;
   align-items: center;
   margin-top: 10px;
+  border-top: 5px dotted rgba(255, 255, 255, 0.8)
 }
 .socials{
   flex: 4;
