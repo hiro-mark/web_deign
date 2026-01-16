@@ -1,8 +1,9 @@
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-image: url(https://cdn.hey-japan.com/upload/be547e66-82b3-4ccc-a25f-63f22e798f02.jpg);
+  background-image: url(ntu.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: top;
 }
 .outer-box{
   display: flex;

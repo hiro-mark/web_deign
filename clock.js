@@ -5,7 +5,7 @@ import timezone from 'https://cdn.jsdelivr.net/npm/dayjs@latest/plugin/timezone/
 dayjs.extend(utc)
 dayjs.extend(timezone)
 
-const timeInTokyo = document.querySelector('.js-live-time');
+const timeInSingapore = document.querySelector('.js-live-time');
 const liveTime = document.querySelector('.this-time');
 
 updateTime()
@@ -13,8 +13,8 @@ updateTime()
 const myInterval = setInterval(updateTime, 1000);
 
 function updateTime() {
-    const tokyoTime = dayjs().tz('Asia/Tokyo');
+    const singaporeTime = dayjs().tz('Asia/Singapore');
     const vietnamTime = dayjs().tz('Asia/Bangkok');
-    timeInTokyo.innerHTML = tokyoTime.format("HH:mm");
+    timeInSingapore.innerHTML = singaporeTime.format("HH:mm");
     liveTime.innerHTML = vietnamTime.format("HH:mm");
 }
