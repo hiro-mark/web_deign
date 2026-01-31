@@ -182,3 +182,48 @@ li{
   flex-direction: column;
   margin: 0 100px 0 100px;
 }
+
+.menu{
+  color: white;
+  position: fixed;
+  bottom: 5%;
+  border: 2px white solid;
+  padding: 5px 20px;
+  border-radius: 40px;
+  margin-left: 10px;
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  z-index: 2;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.menu:hover{
+  background-color: rgba(0,0,0,0.7);
+  font-weight: bold;
+}
+
+.sidebar{
+  position: fixed;
+  background-color: rgba(0,0,0,0.7);
+  margin: 0;
+  left: 0;
+  display: none;
+  z-index: 1;
+  height: 100vh;
+  width: 40vh;
+}
+.navbar {
+  margin-top: 5vh;
+  margin-left: 1vh;
+  text-align: left;
+  color: white;
+}
+.navbar > h1{
+  text-align: left;
+  font-size: 36px;
+  }
+
+  .navbar > ul > li > a{
+    font-size: 25px;
+  }
