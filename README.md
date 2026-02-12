@@ -1,8 +1,8 @@
-This is my about me page, thanks\
+These are my about me pages, thanks\
 I studied about web design back in grade 8, so feel free to look on my projects! 
 ## About me pages
 \
-I created some about me pages with varying themes\
+Themes:\
 Singapore:\
 [NTU](ntu.html)\
 [NUS](nus.html)\
@@ -16,4 +16,8 @@ Hong Kong:\
 [CUHK](cuhk.html)\
 \
 Japan Theme:\
-[Sapporo](sapporo.html)
+[Sapporo](sapporo.html)\
+\
+Australia Theme:\
+[Melbourne](melbourne.html)\
+[Sydney](sydney.html)
