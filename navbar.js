@@ -1,22 +1,16 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
+    const nav = document.querySelector(".navbar");
+    if (!nav) return;
 
-
-    let currentPage = window.location.pathname.split("/").pop();
-    if (currentPage === "" || currentPage === "/") {
-        currentPage = "index.html";
-    }
-    const links = document.querySelectorAll(".navbar a");
-    links.forEach(link => {
-        const linkPage = link.getAttribute("href");
-        if (!linkPage) return;
-        let newLink = linkPage.replace("./", "index.html");
-        if (newLink === currentPage) {
-            link.style.fontWeight = "bold";
-            link.style.pointerEvents = "none";
-            link.style.color = "inherit";
-            link.style.textDecoration = "none";
+    fetch("https://raw.githubusercontent.com/hiro-mark/web_deign/refs/heads/main/navbar.html")
+    .then(res => res.text())
+    .then(html => {
+        nav.innerHTML = html;
+        const page = location.pathname.split("/").pop().replace(".html", "") || "index";
+        const current = nav.querySelector(`[data-page="${page}"]`);
+        if (current) {
+            current.classList.add("active");
+            current.removeAttribute("href");
         }
-
     });
-
 });
