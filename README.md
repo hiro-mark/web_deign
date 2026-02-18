@@ -15,9 +15,13 @@ Hong Kong:\
 [PolyU](polyu.html)\
 [CUHK](cuhk.html)\
 \
-Japan Theme:\
-[Sapporo](sapporo.html)\
+Vietnam:\
+[Hanoi](hanoi.html)\
 \
-Australia Theme:\
+Japan :\
+[Sapporo](sapporo.html)\
+[ICU](icu.html)\
+\
+Australia :\
 [Melbourne](melbourne.html)\
 [Sydney](sydney.html)

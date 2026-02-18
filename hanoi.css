@@ -1,0 +1,18 @@
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/df/DGJ_1873B_-_Turtle_Tower%2C_Sword_Lake%2C_Hanoi_%283530561565%29.jpg);
+}
+
+.separator{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.place{
+    margin-right: 50px;
+    font-size: 35px;
+    color: yellow;
+}
+.this-time{
+    font-size: 40px;
+    color: red;
+}

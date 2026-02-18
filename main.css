@@ -124,6 +124,7 @@ li{
   margin: 0;
   padding: 0;
   right: 0;
+  height: 20px;
 }
 
 @media (max-width: 800px) {
@@ -226,3 +227,31 @@ li{
   .navbar > ul > li > a{
     font-size: 25px;
   }
+  
+.active {
+  font-weight: bold;
+  cursor: default;
+}
+
+.active:hover{
+  color: white !important; 
+}
+
+.active:active{
+  color: white !important; 
+}
+
+.disclaimer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 19px;
+    opacity: 1;
+    color: white;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: black;
+}
