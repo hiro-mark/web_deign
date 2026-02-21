@@ -4,12 +4,14 @@ I studied about web design back in grade 8, so feel free to look on my projects!
 \
 Themes:\
 Singapore:\
+[Marina Bay](mbs.html)\
 [NTU](ntu.html)\
 [NUS](nus.html)\
 [SUTD](sutd.html)\
 [SMU](smu.html)\
 \
 Hong Kong:\
+[Central District](hk.html)\
 [HKU](hku.html)\
 [HKUST](hkust.html)\
 [PolyU](polyu.html)\
