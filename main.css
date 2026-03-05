@@ -296,4 +296,8 @@ li{
     height: 100%;
     width: 100%;
   }
+  .picture{
+    width: 300px;
+    height: 300px;
+  }
 }
