@@ -127,31 +127,7 @@ li{
   height: 20px;
 }
 
-@media (max-width: 800px) {
-  body{
-    background-position: top;
-  }
-  .main-box{
-    width: 700px;
-  }
-  .content{
-    display: flex;
-    flex-direction: column;
-  }
-  .myself{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .name, .my-picture{
-    width: 700px;
-  }
-  .name{
-    border: none;
-    border-bottom: 2px solid white;
-  }
-}
+
 
 .clock{
   background-color: black;
@@ -254,4 +230,65 @@ li{
     -webkit-user-select: none;
     user-select: none;
     background-color: black;
+}
+
+@media (max-width: 768px) {
+  p, li, h1, h2, h3, .menu{
+    font-size: 110%;
+  }
+  body{
+    background-position: top;
+    height: 1800px;
+  }
+  .main-box{
+    width: 700px;
+    margin-left: 600px;
+    height: 1450px;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+  }
+  .myself{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .name, .my-picture{
+    width: 700px;
+  }
+  .name{
+    border: none;
+    border-bottom: 2px solid white;
+  }
+
+  .my-bio{
+    border: none;
+    margin: none;
+  }
+  .clock{
+    width: 100vw;
+  }
+  .js-disappear > p {
+    font-size: 20px;
+  }
+   .menu {
+    font-size: 40px;
+  }
+  .clock{
+    width: 100%;
+  }
+  .bottom-most{
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .disclaimer{
+    width: 100%;
+    text-align: center;
+  }
+  .sidebar{
+    height: 100%;
+    width: 100%;
+  }
 }
