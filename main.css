@@ -270,8 +270,13 @@ li{
   .clock{
     width: 100vw;
   }
+  .js-disappear{
+    padding-top: 40px;
+  }
   .js-disappear > p {
     font-size: 20px;
+    color: white;
+    background-color: black;
   }
    .menu {
     font-size: 40px;
