@@ -239,10 +239,11 @@ li{
   body{
     background-position: top;
     height: 1800px;
+    background-size: cover;
   }
   .main-box{
     width: 700px;
-    margin-left: 600px;
+    margin-left: 550px;
     height: 1450px;
   }
   .content{
