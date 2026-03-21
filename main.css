@@ -232,6 +232,31 @@ li{
     background-color: black;
 }
 
+.gallery-tab {
+    position: fixed;
+    right: -0.1%;
+    top: 40%;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    writing-mode: sideways-lr;
+    padding: 100px 10px;
+    border-radius: 12px;
+    border: 2px solid white;
+    border-right: none;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.gallery-tab:hover {
+    font-size: 48px;
+    top:38%;
+}
+.gallery-tab:active{
+   border: 1px white solid;
+   color: white;
+}
+
 @media (max-width: 768px) {
   p, li, h1, h2, h3, .menu{
     font-size: 110%;
