@@ -26,4 +26,6 @@ Japan :\
 \
 Australia :\
 [Melbourne](melbourne.html)\
-[Sydney](sydney.html)
+[Sydney](sydney.html)\
+\
+Otherwise, you can look at my gallery [here](gallery.html)
