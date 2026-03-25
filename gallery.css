@@ -95,3 +95,42 @@ body {
       width: 90%; 
     }
   }
+
+  .secret-collab{
+    display: flex;
+    flex-direction: column;
+    cursor: help;
+  }
+  .collab-box{
+    padding-bottom: 50px;
+    background-color: black;
+  }
+  a{
+    text-decoration: none;
+  }
+  .secret-collab-box{
+    width: 500px;
+    height: 100px;
+    background-color: #161616;
+    font-size: 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(-50px);
+    transition-delay:999s;
+  }
+
+  .collab{
+    color:cyan
+  }
+
+  .secret-collab:hover > .secret-collab-box{
+    transform: translateY(15px);
+    transition-delay: 1s;
+    transition-duration: 1s;
+    opacity: 1;
+  }
+
+
